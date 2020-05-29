@@ -1,0 +1,9 @@
+version: 0.2
+
+phases:
+  test:
+    commands:
+      - make run_test
+  build:
+    commands:
+      - make run_build
